@@ -2,7 +2,7 @@
     <a target="_blank">
       <img src="https://github.com/Knighthawk-Leo/Knighthawk-Leo/blob/main/Earth.gif" width="24px" style="max-width:100%;">
     </a>
-    Hey, there This Is Sanskar
+    Hey there! This is Akshat
     <a target="_blank">
       <img src="https://github.com/Knighthawk-Leo/Knighthawk-Leo/blob/main/Hi.gif" width="40px" />
     </a>
@@ -18,10 +18,10 @@
   - 🌱 I’m currently learning Data Structures and Algorithms.
   - 👯 I’m looking to collaborate for my tech community <a href='https://www.groupofcode.com/' target='blank'>Group Of Code</a>
   - 🤔 I’m looking for help with React Js
-  - 💬 Ask me about Python programming and automation using python, how to work with Google Cloud Resources , how to get started with opensource and communities , and DBMS.
-  - 📫 How to reach me:<b>Linkedin<b>-<a href='https://www.linkedin.com/in/sanskar-dwivedi-a20201200/'>Sanskar Dwivedi</a>  Or <b>Instagram<b>-<a href='https://www.instagram.com/sanskardwived/'>@sanskardwived</a> 
+  - 💬 Ask me about Data Structures and Algorithms, and it's implementation using C, how to work with Google Cloud Resources , how to get started with opensource and communities , and DBMS.
+  - 📫 How to reach me:<b>Linkedin<b>-<a href='https://www.linkedin.com/in/akshat-pandey-001a53147/'>Akshat Pandey</a>  Or <b>Instagram<b>-<a href='https://www.instagram.com/_akshat._.pandey/'>@sanskardwived</a> 
   - 😄 Pronouns: he/his/him
-  - ⚡ About Me: Potter Head⚡ and a Bibliomaniac
+  - ⚡ About Me: Author of 3 books!⚡ and a pianist
     <summary>
     <h1 align="center"><a target="_blank">
       <img src="https://i.pinimg.com/originals/73/ed/50/73ed50d9bfde8459aa2407f561224508.png" width="40px" />
@@ -39,10 +39,10 @@
   </code>
   </h1>
   
-  [![trophy](https://github-profile-trophy.vercel.app/?username=Knighthawk-Leo&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh)](https://github.com/Knighthawk-Leo)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=BAKCHODGUNDA&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh)](https://github.com/BAKCHODGUNDA)
     
 <p align="center">
-  <a href="https://github.com/Knighthawk-Leo">
+  <a href="https://github.com/BAKCHODGUNDA">
   <img height="125" width="150" src="https://github.com/Knighthawk-Leo/Knighthawk-Leo/blob/main/left.png">
     <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Knighthawk-Leo&theme=dark&hide_border=true"/>
   <img height="125" width="150" src="https://github.com/Knighthawk-Leo/Knighthawk-Leo/blob/main/right.png">
@@ -94,9 +94,9 @@
   <br> -->
     
   <p align="center">
-  <a href="https://github.com/Knighthawk-Leo">
-    <img width="65%" src="https://github-readme-stats.vercel.app/api?username=Knighthawk-Leo&show_icons=true&theme=tokyonight" />
-    <img width="27%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthawk-Leo&count_private=true&theme=tokyonight" />
+  <a href="https://github.com/BAKCHODGUNDA">
+    <img width="65%" src="https://github-readme-stats.vercel.app/api?username=BAKCHODGUNDA&show_icons=true&theme=tokyonight" />
+    <img width="27%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BAKCHODGUNDA&count_private=true&theme=tokyonight" />
   </a>
   </p>
   </details>
@@ -104,7 +104,7 @@
   
     
    <h1 align="center">-:About Me:-</h1>
-  <h4 align="center">A Btech CSE Student  who is a Passionate contributor towards <b>communities</b>, <b>Open Source</b> & <b>Hackathons</b>, Who is Pursuing Knowledge to excel in future endeavor and helping people to enhance there learnings through providing them with practical experience and Knowledge.</h4><br>
+  <h4 align="center">I am a Btech CSE student who is passionate about <b>communities</b>, <b>Open Source</b> & <b>Hackathons</b>, and has a desire to pursue knowledge to excel in future endeavors and to help people through enabling them to gain practical experience.</h4><br>
   
    <div align="center">
   
@@ -115,7 +115,7 @@
   ![](https://github.com/Knighthawk-Leo/Knighthawk-Leo/blob/main/footer.png)
     
     
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Knighthawk-Leo&label=Profile%20views&color=0e75b6&style=flat" alt="lingaraj281" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=BAKCHODGUNDA&label=Profile%20views&color=0e75b6&style=flat" alt="lingaraj281" /> </p>
  
   
 
