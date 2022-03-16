@@ -54,13 +54,7 @@
   </p>
 <hr>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=akshat-pandey16&theme=algolia" alt="akshat-pandey16" /></p>
-<hr>
-<p align="center">
-  <a href="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&theme=algolia">
-    <img width="65%" src="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&theme=algolia" />
-    <img width="27%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Pandey16&count_private=true&theme=algolia" />
-  </a>
-  </p>
+
 <hr>
 <p align="center">
 <img src="https://intense-river-40395.herokuapp.com/graph?username=trinib&theme=react-dark&custom_title=~%20~%20~%20My%20Profile%20Contribution%20Graph%20~%20~%20~&hide_border=true&color=00d668&line=00d668&point=8b007e" width="100%">
