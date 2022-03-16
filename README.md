@@ -8,7 +8,7 @@
 ![A newbie coder](https://github.com/Akshat-Pandey16/Akshat-Pandey16/blob/main/banner.png)
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=trinib&color=0E9C47&style=for-the-badge">
+<img src="https://komarev.com/ghpvc/?username=Akshat-Pandey16&color=0E9C47&style=for-the-badge">
 
 <a href="https://github.com/Akshat-Pandey16"><img width="35%" align="right" alt="Akshat" src="https://github.com/Akshat-Pandey16/Akshat-Pandey16/blob/main/coder.gif" /></a>
 
@@ -58,7 +58,7 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=akshat-pandey16&theme=algolia" alt="akshat-pandey16" /></p>
 <hr>
 <p align="center">
-<img src="https://intense-river-40395.herokuapp.com/graph?username=trinib&theme=react-dark&custom_title=~%20~%20~%20My%20Profile%20Contribution%20Graph%20~%20~%20~&hide_border=true&color=00d668&line=00d668&point=8b007e" width="100%">
+<img src="https://intense-river-40395.herokuapp.com/graph?username=Akshat-Pandey16&theme=react-dark&custom_title=~%20~%20~%20Akshat's%20Profile%20Contribution%20Graph%20~%20~%20~&hide_border=true&color=00d668&line=00d668&point=8b007e" width="100%">
 
 
 <h4 align="center"> 
@@ -87,5 +87,5 @@
 </h4>
 
 ![GitHub metrics](https://metrics.lecoq.io/Akshat-Pandey16)  
-![A newbie coder](https://github.com/Akshat-Pandey16/Akshat-Pandey16/blob/main/lower.png)
 
+![A newbie coder](https://github.com/Akshat-Pandey16/Akshat-Pandey16/blob/main/lower.png)
