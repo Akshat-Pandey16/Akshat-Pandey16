@@ -87,5 +87,5 @@
 </h4>
 
 ![GitHub metrics](https://metrics.lecoq.io/Akshat-Pandey16)  
-
+![A newbie coder](https://github.com/Akshat-Pandey16/Akshat-Pandey16/blob/main/lower.png)
 
