@@ -18,7 +18,7 @@
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
-- 🤝 I’m looking for help with **Web Development and CP**
+- 🤝 I’m looking for help with **Web Development**
 
 - 💬 Ask me about **C, C++, Python, Linux**
 
