@@ -3,7 +3,7 @@
 <p align="center">
 <img src="https://media.giphy.com/media/QLKSt3wQqlj7a/giphy.gif">
 <h1 align="center">Hi 👋, I'm Akshat</h1>
-<h3 align="center">As a sophomore at Bhilai Institute of Technology, Durg, I have intermediate knowledge of C, C++, Python, and HTML, along with a strong grasp of Data Structures and Algorithms. Am a video editor and audio mixer looking for new opportunities to learn about these fields. Successfully published a novelette and a couple of novels.</h3>
+<h3 align="center">As a final year student of Computer Science and Engineering at Bhilai Institute of Technology, Durg, I have intermediate knowledge of C, C++, Python, and HTML, along with a strong grasp of Data Structures and Algorithms. Am a video editor and audio mixer looking for new opportunities to learn about these fields. Successfully published a novelette and a couple of novels.</h3>
 
 ![A newbie coder](https://github.com/Akshat-Pandey16/Akshat-Pandey16/blob/main/banner.png)
 
