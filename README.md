@@ -25,14 +25,10 @@
 ### 🛠️ Skills
 
 #### Programming Languages
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/>
 
 #### Tools
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/>
 
 ---
 
@@ -46,10 +42,7 @@
 ### 🤝 Connect with Me
 
 <p align="left">
-  <a href="https://twitter.com/akshatpandey160" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="akshatpandey160" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/akshat-pandey-001a53147" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akshat-pandey-001a53147" height="30" width="40" /></a>
-  <a href="https://instagram.com/akshat._.pandey" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="akshat._.pandey" height="30" width="40" /></a>
-  <a href="https://www.youtube.com/c/akshat pandey" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="akshat pandey" height="30" width="40" /></a>
+  <a href="https://twitter.com/akshatpandey160" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="akshatpandey160" height="30" width="40" /></a> <a href="https://linkedin.com/in/akshat-pandey-001a53147" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akshat-pandey-001a53147" height="30" width="40" /></a> <a href="https://instagram.com/akshat._.pandey" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="akshat._.pandey" height="30" width="40" /></a> <a href="https://www.youtube.com/c/akshat pandey" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="akshat pandey" height="30" width="40" /></a>
 </p>
 
 ---
@@ -57,8 +50,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img width="65%" src="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&theme=algolia" />
-  <img width="27%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Pandey16&count_private=true&theme=algolia" />
+  <img width="65%" src="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&theme=algolia" /> <img width="27%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Pandey16&count_private=true&theme=algolia" />
 </p>
 
 ---
