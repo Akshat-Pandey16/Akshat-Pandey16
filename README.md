@@ -1,9 +1,5 @@
 <h1 align="center">Hi there, I'm Akshat 👋</h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2379A500&size=40&duration=3000&center=true&lines=Hello+Everybody">
-</p>
-
 <h3 align="center">Computer Science and Engineering final year student | Aspiring Backend Developer | Author </h3>
 
 <p align="center">
@@ -81,8 +77,3 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshat-pandey16&theme=algolia" alt="akshat-pandey16" />
 </p>
 
----
-
-<p align="center">
-  <img src="https://github.com/Akshat-Pandey16/Akshat-Pandey16/blob/main/lower.png">
-</p>
