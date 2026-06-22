@@ -1,7 +1,9 @@
 <!-- ============================ HEADER ============================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:00451f&height=160&section=header&text=Akshat%20Pandey&fontSize=46&fontColor=00d668&animation=fadeIn&fontAlignY=40&desc=Backend%20Lead%20%E2%80%A2%20Python%20%E2%80%A2%20Async%20%26%20Real-time%20Systems&descAlignY=62&descSize=16&descColor=c9d1d9" alt="Akshat Pandey — Backend Lead, Python, Async & Real-time Systems" width="100%" />
+# Akshat Pandey
+
+**Backend Lead** · Python · Async & Real-time Systems
 
 [![Lead Backend @ Intozi](https://img.shields.io/badge/Lead_Backend-Intozi_Tech-00d668?style=flat-square&labelColor=0d1117)](https://github.com/Akshat-Pandey16)
 [![KAVACH'23 National Winner](https://img.shields.io/badge/KAVACH'23-National_Winner_·_Govt._of_India-00d668?style=flat-square&labelColor=0d1117)](#recognition-and-education)
@@ -142,7 +144,7 @@ Engineering isn't the only thing I ship. I'm a published **author** — a novele
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&hide_rank=true&hide=issues&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d668&icon_color=00d668&text_color=c9d1d9" alt="GitHub stats" />
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Akshat-Pandey16&theme=github_dark" alt="Most-used languages by commits" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Pandey16&layout=compact&langs_count=8&hide=html,css&hide_border=true&bg_color=0d1117&title_color=00d668&text_color=c9d1d9" alt="Top languages" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshat-Pandey16&bg_color=0d1117&color=00d668&line=00d668&point=ffffff&area=true&hide_border=true&height=300" alt="Contribution activity graph" width="100%" />
 
