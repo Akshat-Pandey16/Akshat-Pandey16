@@ -1,82 +1,150 @@
+<!-- ============================ HEADER ============================ -->
 <div align="center">
 
-![](https://capsule-render.vercel.app/api?type=waving&color=0-003820-00d668&height=200&section=header&text=Akshat%20Pandey&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Author%20%C2%B7%20Filmmaker&descAlignY=58&descSize=18)
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:00451f&height=160&section=header&text=Akshat%20Pandey&fontSize=46&fontColor=00d668&animation=fadeIn&fontAlignY=40&desc=Backend%20Lead%20%E2%80%A2%20Python%20%E2%80%A2%20Async%20%26%20Real-time%20Systems&descAlignY=62&descSize=16&descColor=c9d1d9" alt="Akshat Pandey — Backend Lead, Python, Async & Real-time Systems" width="100%" />
 
-[![Profile Views](https://komarev.com/ghpvc/?username=Akshat-Pandey16&color=00d668&style=flat-square&label=PROFILE+VIEWS)](https://github.com/Akshat-Pandey16)
-![](https://img.shields.io/badge/Experience-2%2B%20years-00d668?style=flat-square)
-![](https://img.shields.io/badge/Focus-Backend%20Engineering-0d1117?style=flat-square&labelColor=00d668&color=0d1117)
+[![Lead Backend @ Intozi](https://img.shields.io/badge/Lead_Backend-Intozi_Tech-00d668?style=flat-square&labelColor=0d1117)](https://github.com/Akshat-Pandey16)
+[![KAVACH'23 National Winner](https://img.shields.io/badge/KAVACH'23-National_Winner_·_Govt._of_India-00d668?style=flat-square&labelColor=0d1117)](#recognition-and-education)
+![BTech CS · CPI 9.68](https://img.shields.io/badge/BTech_CS-CPI_9.68-00d668?style=flat-square&labelColor=0d1117)
+![Based in Gurugram, IN](https://img.shields.io/badge/Based_in-Gurugram,_IN-58a6ff?style=flat-square&labelColor=0d1117)
 
 </div>
 
+> **I lead the Python backend at a computer-vision product company** — designing the async, streaming, and data layers that production AI workloads run on. By night, I write novels and cut short films.
+
 ---
 
-## $ whoami
+## The request path
 
-Backend engineer with 2+ years of experience in Python. I build and ship production systems — REST APIs, async task pipelines, containerized services — with a focus on clean architecture and reliability.
+The way I think about a production backend: **keep the request path thin, push everything heavy off it.**
 
-When I'm not writing code, I write fiction. Published a novelette and two novels. Occasionally shoot and edit short films.
-
-```python
-akshat = {
-    "role":        "Backend Engineer",
-    "experience":  "2+ years",
-    "stack":       ["Python", "Django", "FastAPI", "PostgreSQL",
-                    "RabbitMQ", "Redis", "Docker", "Nginx", "Linux"],
-    "interests":   ["distributed systems", "API design", "async architecture"],
-    "currently":   "building things that scale",
-    "side_quests": ["fiction writing", "filmmaking"],
-}
+```mermaid
+flowchart LR
+    C(["Clients<br/>web and RTSP cameras"]) --> N["Nginx"]
+    N --> API["API layer<br/>Django and FastAPI"]
+    API -->|enqueue jobs| Q{{"Broker<br/>RabbitMQ and Redis"}}
+    API <-->|cache and sessions| R[("Redis")]
+    API <-->|read and write| PG[("PostgreSQL")]
+    Q --> W["Async workers<br/>Celery and ARQ"]
+    W -->|video and AI jobs| ML[["CV and video analytics"]]
+    W --> PG
+    W -->|artifacts| S3[("S3 object storage")]
+    MTX["MediaMTX<br/>RTSP to WebRTC"] -->|live feeds| API
+    API -.->|real-time| C
+    classDef accent stroke:#00d668,stroke-width:1.5px;
+    class API,W,MTX,ML accent;
 ```
 
+> Live camera feeds and AI analytics surface in real time, while video-processing and ML jobs stay off the request path. This is the shape of the **Video Management System** and **Ikshana** work I own at Intozi.
+
 ---
 
-## Stack
+## By the numbers
 
-| Layer | Technology |
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="20%">
+
+### `4`
+**backends**<br/><sub>shipped · open-source</sub>
+
+</td>
+<td align="center" width="20%">
+
+### `73`
+**REST routes**<br/><sub>HeadTogether</sub>
+
+</td>
+<td align="center" width="20%">
+
+### `20`
+**ORM tables**<br/><sub>layered repos</sub>
+
+</td>
+<td align="center" width="20%">
+
+### `16`
+**Ansible roles**<br/><sub>idempotent · CIS</sub>
+
+</td>
+<td align="center" width="20%">
+
+### `🏆`
+**KAVACH'23**<br/><sub>Govt. of India</sub>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## At Intozi  ·  Jun 2024 – present
+
+Lead backend at a computer-vision & video-analytics **product** company. I own the Python services across the products and coordinate delivery within a small team.
+
+> [!NOTE]
+> **Currently building** the backend for a client-facing **Video Management System** — Django services with **MediaMTX** wired in for RTSP/WebRTC, so live camera feeds and AI analytics surface in the app in real time.
+
+- **Own the Python services** across the company's products, including **Ikshana**, its core video-analytics product.
+- **Architected the data & async layers** — `PostgreSQL` · `Redis` · `RabbitMQ` · `Celery` — to run video-processing jobs and AI workloads off the request path for responsive, scalable services.
+- **Built an internal MLOps pipeline** (Django + React): dataset upload → auto-labeling → human verification → training/retraining, with a path to client-facing deployment.
+
+---
+
+## Selected systems
+
+Four backends I designed and shipped end-to-end — deeper write-ups live in each repo.
+
+| Project | What it is | Built with |
+|---|---|---|
+| **[Papyrus](https://github.com/Akshat-Pandey16/papyrus)** | Self-hostable, privacy-first PDF studio — merge / split / compress / OCR with a zero-retention TTL | `FastAPI` · `Celery` · `S3` · `Compose + Helm` |
+| **[HeadTogether](https://github.com/Akshat-Pandey16/HeadTogether)** | Geo-bounded, ephemeral chat rooms discoverable only by people physically nearby | `FastAPI` · `WebSockets` · `Redis pub/sub` · `Argon2id` |
+| **[ShieldBuntu](https://github.com/Akshat-Pandey16/ShieldBuntu)** | One-click Ubuntu CIS hardening — apply / dry-run / revert, streamed live to the UI | `FastAPI` · `Ansible` · `SSE` · `PAM` |
+| **[MeshHawk](https://github.com/Akshat-Pandey16/MeshHawk)** | Local-first 802.11 mesh detector — `.pcap` in, topology graph + SVG report out | `FastAPI` · `scapy` · `NetworkX` · `ARQ` |
+
+---
+
+## Toolbox
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,docker,linux&theme=dark" alt="Python, Django, FastAPI, PostgreSQL, Redis, Docker, Linux" />
+
+</div>
+
+| | |
 |---|---|
-| **Language** | Python |
+| **Languages** | Python · Bash |
 | **Frameworks** | Django · FastAPI |
-| **Databases** | PostgreSQL |
-| **Messaging** | RabbitMQ |
-| **Caching** | Redis |
-| **Infra** | Docker · Nginx · Linux |
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,rabbitmq,docker,nginx,linux&theme=dark" />
-
-</div>
+| **Data & async** | PostgreSQL · Redis · RabbitMQ · Celery · ARQ |
+| **Streaming & real-time** | MediaMTX (RTSP/WebRTC) · WebSockets · Server-Sent Events |
+| **Infra** | Docker · Kubernetes/Helm · Nginx · AWS · Linux · Git |
 
 ---
 
-## Stats
+## Beyond the terminal
 
-<div align="center">
+Engineering isn't the only thing I ship. I'm a published **author** — a novelette and **two novels** — and I **shoot and edit short films**. Both are the same discipline as backend work: structure, revision, pacing, and deciding what to leave out.
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&theme=algolia&hide_border=true&include_all_commits=true&count_private=true" />
-<img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Pandey16&theme=algolia&hide_border=true&layout=compact&langs_count=6" />
+### Recognition and education
 
-</div>
-
-<div align="center">
-
-<img width="55%" src="https://streak-stats.demolab.com?user=Akshat-Pandey16&theme=algolia&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=akshat-pandey16&theme=algolia&no-frame=true&row=1&column=6&margin-w=4" />
-
-</div>
+- 🏆 **KAVACH'23** — Winner of the inaugural **nationwide** cybersecurity hackathon organised by the **Government of India**.
+- 🎓 **B.Tech, Computer Science** — Bhilai Institute of Technology, Durg · **CPI 9.68** (2020 – 2024).
 
 ---
 
-## Activity
+## GitHub activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshat-Pandey16&bg_color=0d1117&color=00d668&line=00d668&point=ffffff&area=true&hide_border=true" width="100%" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&hide_rank=true&hide=issues&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d668&icon_color=00d668&text_color=c9d1d9" alt="GitHub stats" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Akshat-Pandey16&theme=github_dark" alt="Most-used languages by commits" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshat-Pandey16&bg_color=0d1117&color=00d668&line=00d668&point=ffffff&area=true&hide_border=true&height=300" alt="Contribution activity graph" width="100%" />
 
 </div>
 
@@ -87,24 +155,14 @@ akshat = {
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshat-pandey-001a53147)
-[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/akshatpandey160)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/akshat._.pandey)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00d668?style=for-the-badge&logo=netlify&logoColor=white)](https://akshat16pandey.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshat16pandey@gmail.com)
+[![X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=00d668)](https://twitter.com/akshatpandey160)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/c/akshatpandey)
-
-</div>
-
----
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akshat-Pandey16/Akshat-Pandey16/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akshat-Pandey16/Akshat-Pandey16/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Akshat-Pandey16/Akshat-Pandey16/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/akshat._.pandey)
 
 <br/>
 
-![](https://capsule-render.vercel.app/api?type=waving&color=00d668&height=80&section=footer&fontSize=14&fontColor=ffffff&animation=fadeIn&text=Linux+is+not+an+OS.+It%27s+a+kernel.&fontAlignY=65)
+<sub><i>Thin request path. Heavy lifting off to the side. Same goes for the README — thanks for scrolling.</i></sub>
 
 </div>
