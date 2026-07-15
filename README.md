@@ -1,169 +1,170 @@
-<!-- ============================ HEADER ============================ -->
-<div align="center">
+<!--
+  ┌─────────────────────────────────────────────────────────────────────┐
+  │  Copy the entire contents of this file into the README.md of your    │
+  │  special profile repo:  github.com/Akshat-Pandey16/Akshat-Pandey16   │
+  │  (create that repo if it doesn't exist — it must match your username)│
+  │  Everything below the neofetch block is standard GitHub-flavored     │
+  │  Markdown and renders on your profile as-is.                         │
+  └─────────────────────────────────────────────────────────────────────┘
+-->
 
-# Akshat Pandey
+```text
+-      -   --      -  --                 -   +****#*#****
+         -   -                -    -+*++***##+*%%%%%%%%##*#*
+-                         -  -     +**###***%%%####%#%%%#%%%#*+
+ -                   -          - *##%%**###%#####%@@@%%%%%#%%**
+     -           -         -       @@@@@@@@@@@@@%%%%%%%@@@@@#%%#*+
+          - -                     +%@@@%##*******##%%%%%%%%@%%@@##+
+                                 *#%*%# -------  ++**%%%####%%%%@#*+
+                                +####%+:::-----    +++*#*****#*%@%*+
+                                +*####+-::-------   ++ +++++  - %@#++
+                                 *####* -----------   ----     -*%#+
+                                 *##*#+-----::::---------   -- -+%#+
+                                 *##* ---::-+##****+   +**####*  ***
+                                 *##*::: *    +*##*+*+*####*++++-+*+
+                                  %##--- **#%#%%*@#++-*%%#@%+%#* +*+
+                                +# - ::--+  +*###+ +::-++*##**++ +++
+                                ++: -::::: :---  -+:::--       - -++
+                                   #--:::::::--+*::---   -* ------++
+                                  -- --::::-- +#++#**+**#***   -- ++
+                                  -:- ----- +*#*++##%#%%%#***++  ++
+                                      ---- +*##%++******* %@#*++ ++      +
+                                       ----  +#%@*--:-- +@@%%++  *+                              +
+                                     - +   + ++  ------   ++*++ +++                          + +
+                                     --*+++++  -  -+****+++ ++++*+
+                                     -- *#*++ ------ ++     ++**+                            +
+                                     --- *#*#+ --::-  ----  +*++             +   +    +    +
+                                     :--- +#%###*+++++++***#**+  +
+                                   -:----  +**#%%%@@%%%%@@#+*+                  +
+                                *##------   ++*#%%%%%%%@%*+ ++                            + +
+                            +*%%##%%%-----   +++*#####***+  #*                              + + +
+          +              +##%#%%#%%%@%#--     +++++****++   -%##*                     +
+   +                  +#%##%%%%%#%@%%%@@#     ++++++++++    -%%%%%##*                      +    +
+        +           #*#%%##%@%%%##%@%%%@@@@    ++++++++     *%@%%@#%%%*#+   +     +              +
+        +        **#**#%%###%@%%%#%@%%%@%@@@@%++++ ++++    +%@%@%%@%#%%%#%%*   +           +    +
+            *#%#**####%#####%@%%%%%%@%%%@%%@@@@@@%*    + +%@@%%%@%#%%#%@%%%####*          +    ++
+          +*#####%###%%##%%%#@%%%%%%%%%%%%%%%%@@@@@@@@@@@@@%%%@%@@%%%%##%@%%%%%%##++ +   +      +
+        +*#####%%%%%%%%%%%%%#@%%%%%#%%%%%%%%%%%%%%%@@@@@%%%%@%@%%@@%%%%#%#%@%%%%%%%#+
+       *####%%%%%%%%@%%%%%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%%%%%##%%%@#%%%%%#++       +
+     *#####%%%%%%%%@%@%%@%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%@%%%%%%#+  +  +   +
+   ######%%%%%%%%%%@%%@%%@@@%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#@@%@#%%#+  +   +
+  *####%%%%%%%%%%%%@@@@@@@@@%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@%@%*+ +  +  +
+++*###%%%%%%%%%%%@%@@@@@@@@@@@%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%@@@@%#*+  + ++
+ ####%%%%%%%%%@%@%@@@@@@@@@@@%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%#%@@@@%%*+ + ++
 
-**Backend Lead** · Python · Async & Real-time Systems
+akshat@github
+─────────────────────────────────────────────
+Role     Data Platform Engineer @ Intozi Tech
+Uptime   2 yrs @ Intozi · coding since 2020
+Focus    streaming ingest · async pipelines · MLOps
+Langs    Python · SQL · Bash · TypeScript
+Stack    FastAPI · Django · PostgreSQL · Redis
+Async    Celery · RabbitMQ · ARQ
+Stream   MediaMTX (RTSP/WebRTC) · ONVIF · WS · SSE
+Data/ML  scikit-learn · scapy · NetworkX
+Infra    Docker · Kubernetes · AWS · Nginx · Linux
+Edu      B.Tech CS · BIT Durg · CPI 9.68
+Award    KAVACH'23 — Govt. of India national winner
+Base     Gurugram, IN · remote-friendly
+Status   ● open to work
+Contact  akshat16pandey@gmail.com
+```
 
-[![Lead Backend @ Intozi](https://img.shields.io/badge/Lead_Backend-Intozi_Tech-00d668?style=flat-square&labelColor=0d1117)](https://github.com/Akshat-Pandey16)
-[![KAVACH'23 National Winner](https://img.shields.io/badge/KAVACH'23-National_Winner_·_Govt._of_India-00d668?style=flat-square&labelColor=0d1117)](#recognition-and-education)
-![BTech CS · CPI 9.68](https://img.shields.io/badge/BTech_CS-CPI_9.68-00d668?style=flat-square&labelColor=0d1117)
-![Based in Gurugram, IN](https://img.shields.io/badge/Based_in-Gurugram,_IN-58a6ff?style=flat-square&labelColor=0d1117)
-
-</div>
-
-> **I lead the Python backend at a computer-vision product company** — designing the async, streaming, and data layers that production AI workloads run on. By night, I write novels and cut short films.
+> **I build the data & streaming platform behind a computer-vision product.**
+> Camera ingestion, async processing pipelines, and the MLOps loop that keeps
+> production models fed — I keep the request path thin and push everything heavy
+> off to the side. By night I write novels and cut short films.
 
 ---
 
-## The request path
+### `~/` The request path
 
 The way I think about a production backend: **keep the request path thin, push everything heavy off it.**
 
 ```mermaid
 flowchart LR
-    C(["Clients<br/>web and RTSP cameras"]) --> N["Nginx"]
-    N --> API["API layer<br/>Django and FastAPI"]
-    API -->|enqueue jobs| Q{{"Broker<br/>RabbitMQ and Redis"}}
-    API <-->|cache and sessions| R[("Redis")]
-    API <-->|read and write| PG[("PostgreSQL")]
-    Q --> W["Async workers<br/>Celery and ARQ"]
-    W -->|video and AI jobs| ML[["CV and video analytics"]]
+    C(["Clients<br/>web · RTSP/ONVIF cameras"]) --> N["Nginx"]
+    N --> API["API layer<br/>Django · FastAPI"]
+    API -->|enqueue jobs| Q{{"Broker<br/>RabbitMQ · Redis"}}
+    API <-->|cache · sessions| R[("Redis")]
+    API <-->|read · write| PG[("PostgreSQL")]
+    Q --> W["Async workers<br/>Celery · ARQ"]
+    W -->|video · AI jobs| ML[["CV & video analytics"]]
     W --> PG
     W -->|artifacts| S3[("S3 object storage")]
-    MTX["MediaMTX<br/>RTSP to WebRTC"] -->|live feeds| API
+    MTX["MediaMTX<br/>RTSP → WebRTC"] -->|live feeds| API
     API -.->|real-time| C
-    classDef accent stroke:#00d668,stroke-width:1.5px;
+    classDef accent stroke:#2bd68a,stroke-width:1.5px;
     class API,W,MTX,ML accent;
 ```
 
-> Live camera feeds and AI analytics surface in real time, while video-processing and ML jobs stay off the request path. This is the shape of the **Video Management System** and **Ikshana** work I own at Intozi.
+> Live camera feeds and AI analytics surface in real time, while video-processing
+> and ML jobs stay off the request path. This is the shape of the **Video
+> Management System** and **Ikshana** work I own at Intozi.
 
 ---
 
-## By the numbers
+### `~/intozi` At Intozi · Jun 2024 – present
 
-<div align="center">
+Data platform / backend for a computer-vision & video-analytics **product** company. I own the Python services across the product line.
 
-<table>
-<tr>
-<td align="center" width="20%">
-
-### `4`
-**backends**<br/><sub>shipped · open-source</sub>
-
-</td>
-<td align="center" width="20%">
-
-### `73`
-**REST routes**<br/><sub>HeadTogether</sub>
-
-</td>
-<td align="center" width="20%">
-
-### `20`
-**ORM tables**<br/><sub>layered repos</sub>
-
-</td>
-<td align="center" width="20%">
-
-### `16`
-**Ansible roles**<br/><sub>idempotent · CIS</sub>
-
-</td>
-<td align="center" width="20%">
-
-### `🏆`
-**KAVACH'23**<br/><sub>Govt. of India</sub>
-
-</td>
-</tr>
-</table>
-
-</div>
+- **Architected the data & async layer** — `PostgreSQL` · `Redis` · `RabbitMQ` · `Celery` — so video-processing and model-inference jobs run off the request path for responsive, scalable services.
+- **Built the live-video ingest** for a client-facing **Video Management System** — Django services with **MediaMTX** wired in for RTSP/WebRTC, so camera feeds and AI analytics surface in the app in real time.
+- **Built an internal MLOps pipeline** (Django + React): dataset upload → auto-labeling → human verification → training/re-training, with a path to client-facing deployment.
 
 ---
 
-## At Intozi  ·  Jun 2024 – present
+### `~/projects` Selected systems
 
-Lead backend at a computer-vision & video-analytics **product** company. I own the Python services across the products and coordinate delivery within a small team.
-
-> [!NOTE]
-> **Currently building** the backend for a client-facing **Video Management System** — Django services with **MediaMTX** wired in for RTSP/WebRTC, so live camera feeds and AI analytics surface in the app in real time.
-
-- **Own the Python services** across the company's products, including **Ikshana**, its core video-analytics product.
-- **Architected the data & async layers** — `PostgreSQL` · `Redis` · `RabbitMQ` · `Celery` — to run video-processing jobs and AI workloads off the request path for responsive, scalable services.
-- **Built an internal MLOps pipeline** (Django + React): dataset upload → auto-labeling → human verification → training/retraining, with a path to client-facing deployment.
-
----
-
-## Selected systems
-
-Four backends I designed and shipped end-to-end — deeper write-ups live in each repo.
+Open-source systems I designed and shipped end-to-end — deeper write-ups live in each repo.
 
 | Project | What it is | Built with |
 |---|---|---|
-| **[Papyrus](https://github.com/Akshat-Pandey16/papyrus)** | Self-hostable, privacy-first PDF studio — merge / split / compress / OCR with a zero-retention TTL | `FastAPI` · `Celery` · `S3` · `Compose + Helm` |
-| **[HeadTogether](https://github.com/Akshat-Pandey16/HeadTogether)** | Geo-bounded, ephemeral chat rooms discoverable only by people physically nearby | `FastAPI` · `WebSockets` · `Redis pub/sub` · `Argon2id` |
-| **[ShieldBuntu](https://github.com/Akshat-Pandey16/ShieldBuntu)** | One-click Ubuntu CIS hardening — apply / dry-run / revert, streamed live to the UI | `FastAPI` · `Ansible` · `SSE` · `PAM` |
+| **[onveef](https://github.com/Akshat-Pandey16/onveef)** | A fast, zeep-free ONVIF client library for IP cameras — discover devices, pull stream URLs, drive PTZ; sans-IO core, imports instantly | `Python` · `httpx` · `sans-IO` |
+| **[Papyrus](https://github.com/Akshat-Pandey16/papyrus)** | Self-hostable, privacy-first PDF studio on an async job pipeline — merge / split / compress / OCR with a zero-retention TTL | `FastAPI` · `Celery` · `Redis` · `S3` |
 | **[MeshHawk](https://github.com/Akshat-Pandey16/MeshHawk)** | Local-first 802.11 mesh detector — `.pcap` in, topology graph + SVG report out | `FastAPI` · `scapy` · `NetworkX` · `ARQ` |
+| **[Hoctor](https://github.com/Akshat-Pandey16/Hoctor)** | Indoor Wi-Fi fingerprint localization — a per-venue random forest predicts the room from surrounding APs | `Django` · `DRF` · `scikit-learn` |
+| **[FOSSLove](https://github.com/Akshat-Pandey16/fosslove)** | A FOSS app catalog that builds one cross-distro install script (apt / dnf / pacman / flatpak / winget) | `FastAPI` · `PostgreSQL` · `Redis` · `Next.js` |
+| **[HeadTogether](https://github.com/Akshat-Pandey16/HeadTogether)** | Geo-bounded, ephemeral chat rooms discoverable only by people physically nearby | `FastAPI` · `WebSockets` · `Redis` · `Argon2id` |
+| **[ShieldBuntu](https://github.com/Akshat-Pandey16/ShieldBuntu)** | One-click Ubuntu CIS hardening — 16 idempotent Ansible roles, apply / dry-run / revert, streamed live to the UI | `FastAPI` · `Ansible` · `SSE` · `PAM` |
 
 ---
 
-## Toolbox
+### `~/toolbox` Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,docker,linux&theme=dark" alt="Python, Django, FastAPI, PostgreSQL, Redis, Docker, Linux" />
+<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,docker,kubernetes,linux&theme=dark" alt="Python, Django, FastAPI, PostgreSQL, Redis, Docker, Kubernetes, Linux" />
 
 </div>
 
 | | |
 |---|---|
-| **Languages** | Python · Bash |
-| **Frameworks** | Django · FastAPI |
+| **Languages** | Python · SQL · Bash · TypeScript |
+| **Frameworks** | FastAPI · Django · React |
 | **Data & async** | PostgreSQL · Redis · RabbitMQ · Celery · ARQ |
-| **Streaming & real-time** | MediaMTX (RTSP/WebRTC) · WebSockets · Server-Sent Events |
+| **Ingest & streaming** | MediaMTX (RTSP/WebRTC) · ONVIF · WebSockets · Server-Sent Events |
+| **ML & data** | scikit-learn · scapy · NetworkX |
 | **Infra** | Docker · Kubernetes/Helm · Nginx · AWS · Linux · Git |
 
 ---
 
-## Beyond the terminal
-
-Engineering isn't the only thing I ship. I'm a published **author** — a novelette and **two novels** — and I **shoot and edit short films**. Both are the same discipline as backend work: structure, revision, pacing, and deciding what to leave out.
-
-### Recognition and education
+### `~/recognition` Recognition & education
 
 - 🏆 **KAVACH'23** — Winner of the inaugural **nationwide** cybersecurity hackathon organised by the **Government of India**.
 - 🎓 **B.Tech, Computer Science** — Bhilai Institute of Technology, Durg · **CPI 9.68** (2020 – 2024).
 
----
+### `~/offline` Beyond the terminal
 
-## GitHub activity
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Akshat-Pandey16&show_icons=true&hide_rank=true&hide=issues&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d668&icon_color=00d668&text_color=c9d1d9" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Pandey16&layout=compact&langs_count=8&hide=html,css&hide_border=true&bg_color=0d1117&title_color=00d668&text_color=c9d1d9" alt="Top languages" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshat-Pandey16&bg_color=0d1117&color=00d668&line=00d668&point=ffffff&area=true&hide_border=true&height=300" alt="Contribution activity graph" width="100%" />
-
-</div>
+A published **author** — a novelette and two novels — and I **shoot & edit short films**. Same discipline as backend work: structure, revision, pacing, and deciding what to leave out.
 
 ---
 
-## Connect
-
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshat-pandey-001a53147)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00d668?style=for-the-badge&logo=netlify&logoColor=white)](https://akshat16pandey.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-2bd68a?style=for-the-badge&logo=netlify&logoColor=04140c)](https://akshat16pandey.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshat16pandey/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshat16pandey@gmail.com)
-[![X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=00d668)](https://twitter.com/akshatpandey160)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/c/akshatpandey)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/akshat._.pandey)
-
-<br/>
 
 <sub><i>Thin request path. Heavy lifting off to the side. Same goes for the README — thanks for scrolling.</i></sub>
 
