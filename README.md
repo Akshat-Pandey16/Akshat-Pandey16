@@ -1,86 +1,43 @@
-<!--
-  ┌─────────────────────────────────────────────────────────────────────┐
-  │  Copy the entire contents of this file into the README.md of your    │
-  │  special profile repo:  github.com/Akshat-Pandey16/Akshat-Pandey16   │
-  │  (create that repo if it doesn't exist — it must match your username)│
-  │  Everything below the neofetch block is standard GitHub-flavored     │
-  │  Markdown and renders on your profile as-is.                         │
-  └─────────────────────────────────────────────────────────────────────┘
--->
-
-```text
--      -   --      -  --                 -   +****#*#****
-         -   -                -    -+*++***##+*%%%%%%%%##*#*
--                         -  -     +**###***%%%####%#%%%#%%%#*+
- -                   -          - *##%%**###%#####%@@@%%%%%#%%**
-     -           -         -       @@@@@@@@@@@@@%%%%%%%@@@@@#%%#*+
-          - -                     +%@@@%##*******##%%%%%%%%@%%@@##+
-                                 *#%*%# -------  ++**%%%####%%%%@#*+
-                                +####%+:::-----    +++*#*****#*%@%*+
-                                +*####+-::-------   ++ +++++  - %@#++
-                                 *####* -----------   ----     -*%#+
-                                 *##*#+-----::::---------   -- -+%#+
-                                 *##* ---::-+##****+   +**####*  ***
-                                 *##*::: *    +*##*+*+*####*++++-+*+
-                                  %##--- **#%#%%*@#++-*%%#@%+%#* +*+
-                                +# - ::--+  +*###+ +::-++*##**++ +++
-                                ++: -::::: :---  -+:::--       - -++
-                                   #--:::::::--+*::---   -* ------++
-                                  -- --::::-- +#++#**+**#***   -- ++
-                                  -:- ----- +*#*++##%#%%%#***++  ++
-                                      ---- +*##%++******* %@#*++ ++      +
-                                       ----  +#%@*--:-- +@@%%++  *+                              +
-                                     - +   + ++  ------   ++*++ +++                          + +
-                                     --*+++++  -  -+****+++ ++++*+
-                                     -- *#*++ ------ ++     ++**+                            +
-                                     --- *#*#+ --::-  ----  +*++             +   +    +    +
-                                     :--- +#%###*+++++++***#**+  +
-                                   -:----  +**#%%%@@%%%%@@#+*+                  +
-                                *##------   ++*#%%%%%%%@%*+ ++                            + +
-                            +*%%##%%%-----   +++*#####***+  #*                              + + +
-          +              +##%#%%#%%%@%#--     +++++****++   -%##*                     +
-   +                  +#%##%%%%%#%@%%%@@#     ++++++++++    -%%%%%##*                      +    +
-        +           #*#%%##%@%%%##%@%%%@@@@    ++++++++     *%@%%@#%%%*#+   +     +              +
-        +        **#**#%%###%@%%%#%@%%%@%@@@@%++++ ++++    +%@%@%%@%#%%%#%%*   +           +    +
-            *#%#**####%#####%@%%%%%%@%%%@%%@@@@@@%*    + +%@@%%%@%#%%#%@%%%####*          +    ++
-          +*#####%###%%##%%%#@%%%%%%%%%%%%%%%%@@@@@@@@@@@@@%%%@%@@%%%%##%@%%%%%%##++ +   +      +
-        +*#####%%%%%%%%%%%%%#@%%%%%#%%%%%%%%%%%%%%%@@@@@%%%%@%@%%@@%%%%#%#%@%%%%%%%#+
-       *####%%%%%%%%@%%%%%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%%%%%##%%%@#%%%%%#++       +
-     *#####%%%%%%%%@%@%%@%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%@%%%%%%#+  +  +   +
-   ######%%%%%%%%%%@%%@%%@@@%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#@@%@#%%#+  +   +
-  *####%%%%%%%%%%%%@@@@@@@@@%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@%@%*+ +  +  +
-++*###%%%%%%%%%%%@%@@@@@@@@@@@%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%@@@@%#*+  + ++
- ####%%%%%%%%%@%@%@@@@@@@@@@@%@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%#%@@@@%%*+ + ++
-
-akshat@github
-─────────────────────────────────────────────
-Role     Data Platform Engineer @ Intozi Tech
-Uptime   2 yrs @ Intozi · coding since 2020
-Focus    streaming ingest · async pipelines · MLOps
-Langs    Python · SQL · Bash · TypeScript
-Stack    FastAPI · Django · PostgreSQL · Redis
-Async    Celery · RabbitMQ · ARQ
-Stream   MediaMTX (RTSP/WebRTC) · ONVIF · WS · SSE
-Data/ML  scikit-learn · scapy · NetworkX
-Infra    Docker · Kubernetes · AWS · Nginx · Linux
-Edu      B.Tech CS · BIT Durg · CPI 9.68
-Award    KAVACH'23 — Govt. of India national winner
-Base     Gurugram, IN · remote-friendly
-Status   ● open to work
-Contact  akshat16pandey@gmail.com
+```console
+visitor@akshat:~$ neofetch
+```
+```diff
++                   -++++@@@@@@+-                     akshat@github
++                  -@@@@@@@@@@@@@@=                   ────────────────────────
++                  =@@@@@@@@@@@@@@@%.                 Role     Data Platform Engineer
++                 =@@%     +@@@@@@@@#                 Host     Intozi Tech · video AI
++                 =@@@      :--=: -@%                 Uptime   2 yrs · since 2020
++                 .@@=  .==+: --==:@*                 Focus    ingest · pipelines · MLOps
++                 .%% .*+@@@@#@@@@*%#                 Langs    Python · SQL · Bash · TS
++                 *=.  :-=+=. -===-+#                 Stack    FastAPI · Django · Postgres
++                  ..    :%+++=*-  -#                 Async    Celery · RabbitMQ · Redis
++                       *@@@@@@%@@-#:  :              Stream   MediaMTX · WebRTC · ONVIF
++                    .: =%+:..-#@@-@.            .::  ML       scikit-learn · scapy
++                     #@%   -#--=@@=             :.   Infra    Docker · K8s · AWS · Linux
++                      #@*++=+==*@=.     : :  . .     Edu      B.Tech CS · CPI 9.68
++                 -=    #@@@@@@@%*        ..    ::    Award    KAVACH'23 · Govt. of India
++      :      .=%@@@%=   #@@@@@-.#+.         .. :-::  Base     Gurugram, IN · remote
++  .  -     =%@@@@@@@@%= -@@@@- .@@@@+=..  ..   :  =  Status   ● open to work
++     : ==*@@@@@@@@@@@@@@@@#++:=@@@@@@@@%+*.   .= -+
++     =%@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@%= :  .:
++   :*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@- .::.
++ .*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-:-:
++ #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:**
 ```
 
-> **I build the data & streaming platform behind a computer-vision product.**
-> Camera ingestion, async processing pipelines, and the MLOps loop that keeps
-> production models fed — I keep the request path thin and push everything heavy
-> off to the side. By night I write novels and cut short films.
+```console
+visitor@akshat:~$ whoami
+```
+```diff
++ I build the data & streaming platform behind a computer-vision product —
++ camera ingestion, async pipelines, and the MLOps loop that keeps production
++ models fed. I keep the request path thin and push everything heavy off it.
++ By night I write novels and cut short films.
+```
 
----
-
-### `~/` The request path
-
-The way I think about a production backend: **keep the request path thin, push everything heavy off it.**
-
+```console
+visitor@akshat:~$ cat architecture.txt     # keep the request path thin, push the heavy work off it
+```
 ```mermaid
 flowchart LR
     C(["Clients<br/>web · RTSP/ONVIF cameras"]) --> N["Nginx"]
@@ -98,13 +55,9 @@ flowchart LR
     class API,W,MTX,ML accent;
 ```
 
-> Live camera feeds and AI analytics surface in real time, while video-processing
-> and ML jobs stay off the request path. This is the shape of the **Video
-> Management System** and **Ikshana** work I own at Intozi.
-
----
-
-### `~/intozi` At Intozi · Jun 2024 – present
+```console
+visitor@akshat:~$ cat ~/intozi/role.md     # Data Platform Engineer · Jun 2024 – present
+```
 
 Data platform / backend for a computer-vision & video-analytics **product** company. I own the Python services across the product line.
 
@@ -112,11 +65,11 @@ Data platform / backend for a computer-vision & video-analytics **product** comp
 - **Built the live-video ingest** for a client-facing **Video Management System** — Django services with **MediaMTX** wired in for RTSP/WebRTC, so camera feeds and AI analytics surface in the app in real time.
 - **Built an internal MLOps pipeline** (Django + React): dataset upload → auto-labeling → human verification → training/re-training, with a path to client-facing deployment.
 
----
-
-### `~/projects` Selected systems
-
-Open-source systems I designed and shipped end-to-end — deeper write-ups live in each repo.
+```console
+visitor@akshat:~$ ls ~/projects
+onveef/   papyrus/   meshhawk/   hoctor/   fosslove/   headtogether/   shieldbuntu/
+visitor@akshat:~$ cat ~/projects/*/README.md | head
+```
 
 | Project | What it is | Built with |
 |---|---|---|
@@ -126,46 +79,48 @@ Open-source systems I designed and shipped end-to-end — deeper write-ups live 
 | **[Hoctor](https://github.com/Akshat-Pandey16/Hoctor)** | Indoor Wi-Fi fingerprint localization — a per-venue random forest predicts the room from surrounding APs | `Django` · `DRF` · `scikit-learn` |
 | **[FOSSLove](https://github.com/Akshat-Pandey16/fosslove)** | A FOSS app catalog that builds one cross-distro install script (apt / dnf / pacman / flatpak / winget) | `FastAPI` · `PostgreSQL` · `Redis` · `Next.js` |
 | **[HeadTogether](https://github.com/Akshat-Pandey16/HeadTogether)** | Geo-bounded, ephemeral chat rooms discoverable only by people physically nearby | `FastAPI` · `WebSockets` · `Redis` · `Argon2id` |
-| **[ShieldBuntu](https://github.com/Akshat-Pandey16/ShieldBuntu)** | One-click Ubuntu CIS hardening — 16 idempotent Ansible roles, apply / dry-run / revert, streamed live to the UI | `FastAPI` · `Ansible` · `SSE` · `PAM` |
+| **[ShieldBuntu](https://github.com/Akshat-Pandey16/ShieldBuntu)** | One-click Ubuntu CIS hardening — 16 idempotent Ansible roles, apply / dry-run / revert, streamed live | `FastAPI` · `Ansible` · `SSE` · `PAM` |
 
----
+```console
+visitor@akshat:~$ cat ~/toolbox.md
+```
+```diff
++ languages    Python · SQL · Bash · TypeScript
++ frameworks   FastAPI · Django · React
++ data & async PostgreSQL · Redis · RabbitMQ · Celery · ARQ
++ ingest       MediaMTX (RTSP/WebRTC) · ONVIF · WebSockets · Server-Sent Events
++ ml & data    scikit-learn · scapy · NetworkX
++ infra        Docker · Kubernetes/Helm · Nginx · AWS · Linux · Git
+```
 
-### `~/toolbox` Stack
+```console
+visitor@akshat:~$ cat ~/recognition.md
+```
+```diff
++ 🏆  KAVACH'23  — Winner, inaugural nationwide cybersecurity hackathon (Government of India)
++ 🎓  B.Tech Computer Science — Bhilai Institute of Technology, Durg · CPI 9.68 (2020–2024)
+```
 
-<div align="center">
+```console
+visitor@akshat:~$ cat ~/offline.md         # engineering isn't the only thing I ship
+```
+```diff
++ A published author — a novelette and two novels — and I shoot & edit short films.
++ Same discipline as backend work: structure, revision, pacing, deciding what to cut.
+```
 
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,docker,kubernetes,linux&theme=dark" alt="Python, Django, FastAPI, PostgreSQL, Redis, Docker, Kubernetes, Linux" />
+```console
+visitor@akshat:~$ cat ~/contact.txt
+```
 
-</div>
+- **Portfolio** — https://akshat16pandey.netlify.app/
+- **LinkedIn** — https://www.linkedin.com/in/akshat16pandey/
+- **Email** — akshat16pandey@gmail.com
+- **GitHub** — https://github.com/Akshat-Pandey16
 
-| | |
-|---|---|
-| **Languages** | Python · SQL · Bash · TypeScript |
-| **Frameworks** | FastAPI · Django · React |
-| **Data & async** | PostgreSQL · Redis · RabbitMQ · Celery · ARQ |
-| **Ingest & streaming** | MediaMTX (RTSP/WebRTC) · ONVIF · WebSockets · Server-Sent Events |
-| **ML & data** | scikit-learn · scapy · NetworkX |
-| **Infra** | Docker · Kubernetes/Helm · Nginx · AWS · Linux · Git |
-
----
-
-### `~/recognition` Recognition & education
-
-- 🏆 **KAVACH'23** — Winner of the inaugural **nationwide** cybersecurity hackathon organised by the **Government of India**.
-- 🎓 **B.Tech, Computer Science** — Bhilai Institute of Technology, Durg · **CPI 9.68** (2020 – 2024).
-
-### `~/offline` Beyond the terminal
-
-A published **author** — a novelette and two novels — and I **shoot & edit short films**. Same discipline as backend work: structure, revision, pacing, and deciding what to leave out.
-
----
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-2bd68a?style=for-the-badge&logo=netlify&logoColor=04140c)](https://akshat16pandey.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshat16pandey/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshat16pandey@gmail.com)
+```console
+visitor@akshat:~$ exit
+logout
+```
 
 <sub><i>Thin request path. Heavy lifting off to the side. Same goes for the README — thanks for scrolling.</i></sub>
-
-</div>
